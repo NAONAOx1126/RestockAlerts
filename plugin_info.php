@@ -34,13 +34,13 @@ class plugin_info{
     /** プラグインバージョン(必須)：プラグインのバージョン. */
     static $PLUGIN_VERSION    = "1.1";
     /** 対応バージョン(必須)：対応するEC-CUBEバージョン. */
-    static $COMPLIANT_VERSION = "2.12.2";
+    static $COMPLIANT_VERSION = "2.12.0, 2.12.1, 2.12.2";
     /** 作者(必須)：プラグイン作者. */
     static $AUTHOR            = "Naohisa Minagawa";
     /** 説明(必須)：プラグインの説明. */
     static $DESCRIPTION       = "在庫切れの際にメールアドレスを登録できるようにし、該当商品が購入可能な状態になった際にメールで通知を行う機能を追加します。";
     /** プラグインURL：プラグイン毎に設定出来るURL（説明ページなど） */
-    static $PLUGIN_SITE_URL   = "http://www.netlife-web.com/";
+    static $PLUGIN_SITE_URL   = "http://naonaox1126.github.com/RestockAlerts";
     /** フックポイント */
 	static $HOOK_POINTS	= array(
 		array("prefilterTransform", "prefilterTransform"), 
